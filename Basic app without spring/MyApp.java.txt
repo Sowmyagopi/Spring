@@ -1,0 +1,22 @@
+package com.examples.srpingdemo;
+
+/**
+ * this class will communicate with Baseball Coach 
+ * and get us the daily workout. 
+ * 
+ * myCoach.getDailyWorkout() can work with any Coach implementation that has the method getDailyWorkout.
+ */
+
+public class MyApp {
+
+	public static void main(String[] args) {
+		
+		// creating the object.
+		Coach mycoach = new BaseballCoach();
+		
+		// use the object
+		System.out.println(mycoach.getDailyWorkout());
+		 
+	}
+
+}

@@ -1,0 +1,9 @@
+This is a application that communicates with different coaches (Baseball, hockey etc) to get the daily workot practice.
+
+This contains three classes 
+
+-- MyApp.java ---> main method
+
+-- BaseballCoach.java
+
+-- COach.java ---> interface
