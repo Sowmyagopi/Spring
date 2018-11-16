@@ -20,6 +20,9 @@ public static void main(String[] args) {
 		
 		 // use the bean 
 		 System.out.println(theCoach.getDailyWorkout());
+		 
+		 //close the context
+		 context.close();
 	}
 
 
