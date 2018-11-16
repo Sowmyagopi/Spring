@@ -1,0 +1,13 @@
+Inversion Of control:
+=====================
+
+ -- It basically means that out application is gonna outsource the creation and management of objects, and the outsourcing will be handled by object factory.
+ -- here spring container is the object factory
+
+here,
+
+1. applicationContext.xml - Spring Container
+2. MyAppIoc.java - Main method
+3. CoachIoc.java - interface 
+4. BaseballCoachIoc.java 
+
