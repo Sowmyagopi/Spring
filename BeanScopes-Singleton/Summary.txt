@@ -1,0 +1,20 @@
+Bean Scopes:
+============
+
+  -- Scopes refers to the lifecycle of a bean
+
+  -- the default scope is singleton
+
+Singleton
+=========
+
+	For singleton spring container creates only one instance of the bean.
+
+	All the request for the bean will return a shared reference to the same bean
+
+1. BaseballCoachBeanScopesSingleton.java ---> java class
+2. BeanScopesSingleton-applicationContext.xml ---> config file
+3. CoachBeanSopesSingleton.java ---> interface
+4. FortuneServiceBeanScopesSingleton.java ---> dependency interface 
+5. HappyFortuneServiceBeanScopesSingleton.java ---> dependency class
+6. MyAppBeanScopesSingleton.java ---> main method
