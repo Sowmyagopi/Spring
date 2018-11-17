@@ -1,0 +1,10 @@
+Setter Injection
+================
+ Inject dependencies by calling the setter method on your class
+
+1. applicationContext-SetterInjection.xml ---> config file (Spring container)
+2. BaseballCoachSetterInjection.java ---> java class
+3. CoachSetterInjection.java ---> interface 
+4. FortuneServiceSetterInjection.java ---> dependency interface 
+5. HappyFortuneServiceSetterInjection.java ---> dependency class
+6. MyAppSetterInjection.java ---> main method
