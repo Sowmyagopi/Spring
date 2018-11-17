@@ -1,0 +1,13 @@
+Inject values from properties file:
+===================================
+
+Instead of hard coding the vales in the config file we read it from a properties file where we will be placing the literal vales.
+
+1. applicationContext-SILiteralValuesProp.xml ---> config file 
+2. BaseballCoachSILiteralValuesProp.java ---> java class
+3. CoachSILiteralValuesProp.java ---> interface
+4. FortuneServiceSILiteralValuesProp.java ---> dependency interface
+5. HappyFortuneServiceSILiteralValuesProp.java ---> dependency class
+6. MyAppSILiteralValuesProp.java ---> main method
+7. sport.properties ---> properties file
+
