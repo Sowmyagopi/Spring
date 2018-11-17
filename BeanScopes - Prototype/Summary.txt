@@ -1,0 +1,14 @@
+Bean Scopes - Prototype
+=======================
+
+	creates a new bean instance for the each container request.
+
+	creates a new object for each request
+
+
+1. BaseballCoachBeanScopesPrototype.java ---> java class
+2. BeanScopesPrototype-applicationContext.xml ---> config file 
+3. CoachBeanSopesPrototype.java ---> Interface
+4. FortuneServiceBeanScopesPrototype.java ---> dependency interface
+5. HappyFortuneServiceBeanScopesPrototype.java ---> dependency class
+6. MyAppBeanScopesPrototype.java ---> main method
