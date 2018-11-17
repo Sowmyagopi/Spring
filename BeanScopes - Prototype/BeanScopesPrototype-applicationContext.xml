@@ -10,13 +10,13 @@
     <!-- Define your beans here -->
     
     	<bean id="myFortuneService"
-			class="com.examples.BeanScopesPrototype.copy.HappyFortuneServiceBeanScopesPrototype">
+			class="com.examples.BeanScopesPrototype.HappyFortuneServiceBeanScopesPrototype">
 		
 		</bean>  
     
     <!-- assigning scope to prototype -->
     	<bean id="myCoach"
-    			class="com.examples.BeanScopesPrototype.copy.BaseballCoachBeanScopesPrototype"
+    			class="com.examples.BeanScopesPrototype.BaseballCoachBeanScopesPrototype"
     			scope="prototype">
     			
     	<!-- setup constructor injection -->

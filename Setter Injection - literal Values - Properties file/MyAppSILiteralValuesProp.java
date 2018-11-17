@@ -12,7 +12,7 @@ public static void main(String[] args) {
 		
 	// creating a spring container
 		ClassPathXmlApplicationContext context = new
-				ClassPathXmlApplicationContext("SILiteralValuesProp-applicationContext.xml");
+				ClassPathXmlApplicationContext("setterInjectionLiteralValuesProp-applicationContext.xml");
 		
 		//retrieve beans from spring container
 		

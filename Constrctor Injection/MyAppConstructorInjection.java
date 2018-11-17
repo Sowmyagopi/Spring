@@ -12,7 +12,7 @@ public static void main(String[] args) {
 		
 	// creating a spring container
 		ClassPathXmlApplicationContext context = new
-				ClassPathXmlApplicationContext("ConstructorInjection-applicationContext.xml");
+				ClassPathXmlApplicationContext("constructorInjection-applicationContext.xml");
 		
 		//retrieve beans from spring container
 		

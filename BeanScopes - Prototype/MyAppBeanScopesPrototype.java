@@ -12,7 +12,7 @@ public static void main(String[] args) {
 		
 	// load the spring container
 		ClassPathXmlApplicationContext context = new
-				ClassPathXmlApplicationContext("BeanScopesPrototype-applicationContext.xml");
+				ClassPathXmlApplicationContext("beanScopesPrototype-applicationContext.xml");
 		
 	//retrieve beans from spring container
 		
