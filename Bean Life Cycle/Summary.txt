@@ -1,0 +1,11 @@
+Bean Life cycle
+===============
+
+	During the bean life cycle, spring allows you to call some of your own custom code to execute during bean initialization (or) destruction
+
+1. BaseballCoachBeanLifeCycle.java --> java class
+2. beanLifeCycle-applicationContext.xml --> config file
+3. CoachBeanLifeCycle.java --> interface
+4. FortuneServiceBeanLifeCycle.java --> dependency interface
+5. HappyFortuneServiceBeanLifeCycle.java --> dependency class
+6. MyAppBeanLifeCycle.java --> main method
