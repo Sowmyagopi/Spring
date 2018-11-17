@@ -1,0 +1,9 @@
+Injection literal values
+========================
+
+1. applicationContext-SILiteralValues.xml ---> config file
+2. BaseballCoachSILiteralValues.java ---> java class
+3. CoachSILiteralValues.java ---> interface
+4. FortuneServiceSILiteralValues.java ---> dependency interface
+5. HappyFortuneServiceSILiteralValues.java ---> dependency class
+6. MyAppSILiteralValues.java ---> main method
