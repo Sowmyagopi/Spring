@@ -1,0 +1,11 @@
+Java Annotations
+================
+
+	-> special labels or markers added to java class
+
+	-> Provide meta-data about the class
+
+1. annotation-applicationContext.xml --> config file 
+2. AnnotationDemoApp.java --> main method
+3. BaseballCoachAnnotation.java --> java class
+4. CoachAnnotation.java --> Interface 
