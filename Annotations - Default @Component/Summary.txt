@@ -1,0 +1,15 @@
+Spring with default bean ID
+===========================
+
+	-> Spring supports Default bean ID's
+	-> The default bean ID is the class name with the first letter in lower case 
+
+class name --> BaseballCoach
+
+default bean id -->baseballCoach
+
+1. annotationDefaultComponent-applicationContext.xml --> spring config file
+2. AnnotationDefaultComponentDemoApp.java --> main method
+3. BaseballCoachAnnotationDefaultComponent.java --> java class
+4. CoachAnnotationDefaultComponent.java --> interface
+
